@@ -1,10 +1,12 @@
-# Problem Statement
-The project aim is to determine an individual Mental condition from the individual verbal expression
+# Aim of the Project
+The aim is to develop a machine learning model that can accurately identify emotional cues and mental health indicators from written text.
+# Overview
+This project focuses on using sentiment analysis to detect and classify various mental states, such as stress, anxiety, depression, Suicidal, Stress, Bipolar, Personality disorder
 # Data Collection
 the dataset was collected from Kaggle: https://www.kaggle.com/datasets/suchintikasarkar/sentiment-analysis-for-mental-health
 # Features
 unique_id: A unique identifier for each entry.
-Statement: The textual data or post.
+Statement: The textual data or post to analyze.
 Mental Health Status: The tagged mental health status of the statement.
 # Methods
 ### Data cleaning
