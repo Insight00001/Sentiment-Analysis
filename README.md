@@ -27,6 +27,7 @@ The analysis of the dataset reveals that texts reflecting a normal emotional sta
 ## feature engineering
 A new feature, text length, was created to analyze the relationship between the length of text and emotional status. This feature helps in understanding which emotional categories are associated with longer or shorter text inputs. By examining the text length, we aim to answer the question: "Which emotional category do people tend to write the most about?" This analysis can provide insights into the verbosity of different emotional states and may indicate that certain emotions prompt more extensive expression in text.
 ![bar2](https://github.com/user-attachments/assets/80f5edd4-cc3e-483b-9ec6-a61ef62ef4ac)
+
 statement that are bipolar have the longest text indicating people with such disorder might type more
 
 ## Vectorization
