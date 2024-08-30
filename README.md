@@ -33,9 +33,9 @@ statement that are bipolar have the longest text indicating people with such dis
 ## Vectorization
 Convert Text into Numerical Vectors: Transform the preprocessed text into numerical vectors using techniques such as TF-IDF, word embeddings, or contextual embeddings. This step is essential for preparing the text data to be used by machine learning algorithms.
 # Modelling
-Logistic regression: 80 percent accuracy
-Decision Tree classifier: 100 percent accuracy
-Random Forest Classifier: 100 percent accuracy
+1. Logistic regression: 80 percent accuracy
+2. Decision Tree classifier: 100 percent accuracy
+3. Random Forest Classifier: 100 percent accuracy
 # Conclusion
 Random Forest and Decision Tree classifiers are prone to overfitting, which can lead to reduced generalization performance on unseen data. Therefore, the Logistic Regression model is chosen for its ability to generalize well and maintain robust performance across different datasets.
 3. the model achieves an accuracy of 76 per cent
