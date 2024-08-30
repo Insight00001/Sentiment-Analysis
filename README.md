@@ -10,8 +10,15 @@ the dataset was collected from Kaggle: https://www.kaggle.com/datasets/suchintik
 # Data cleaning
 To ensure the quality and reliability of the data, the following steps were undertaken for data cleaning:
 1. Checked for Null and Duplicate Values: Identified any missing (null) and duplicate entries within the dataset.
-2. Dropped Null and Duplicate Values: Removed all records with null values and duplicates to maintain a clean and accurate      dataset for model training.
+2. Dropped Null and Duplicate Values: Removed all records with null values and duplicates to maintain a clean and accurate     dataset for model training.
+3. Convert the Data Type for statement from Object to String:
+Changed the data type of the statement column from object to string to ensure more efficient text processing. The string data type is optimized for text manipulation and ensures consistent handling of text data throughout the analysis.
+4. Convert the Data Type for status from Object to Category:
+Converted the status column from object to category to optimize memory usage and enhance performance for data analysis. The category data type is more efficient for storing categorical data and speeds up operations such as filtering, grouping, and one-hot encoding, which are commonly used in machine learning workflows.
+
 # EXploratory Data Analysis
+
+![pie](https://github.com/user-attachments/assets/84f417a2-df0e-4b2a-b578-e33b56313663)
 
 ## Data visualization
 ## Vectorization
